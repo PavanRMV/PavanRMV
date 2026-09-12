@@ -2,7 +2,7 @@
 
 **Data Analyst | Business Intelligence | Analytics Engineering**
 
-I turn complex, imperfect data into tested models, clear metrics, and dashboards that help business teams make decisions. My portfolio focuses on SQL, Python, Power BI, Tableau, BigQuery, and dbt, with an emphasis on reproducibility and honest interpretation.
+I turn complex, imperfect data into tested models, clear metrics, and dashboards that help business teams make decisions. My portfolio focuses on SQL, Python, Snowflake, Power BI, Tableau, BigQuery, and dbt, with an emphasis on reproducibility and honest interpretation.
 
 I am open to Data Analyst and BI Analyst opportunities in the United States.
 
@@ -17,6 +17,18 @@ I am open to Data Analyst and BI Analyst opportunities in the United States.
 - **Data quality:** preserve exceptions, test assumptions, document limitations, and avoid claims the evidence cannot support
 
 ## Featured projects
+
+### Retail Merchandise Revenue Analytics on Snowflake
+
+[![Retail merchandise revenue dashboard showing sales, cancellation exposure, trends, and leading SKUs](assets/retail-revenue-analytics-preview.png)](https://github.com/PavanRMV/retail-revenue-analytics-snowflake)
+
+A transaction-integrity and customer analytics project built from all 541,909 rows in the UCI Online Retail dataset, with Snowflake-oriented SQL and full local validation in DuckDB.
+
+- Reconciled 541,909 source rows to 541,909 fact rows with no duplicate fact keys or required-dimension orphans
+- Separated merchandise, service/accounting, and unresolved-review populations so postage, fees, bad debt, samples, and vouchers do not inflate merchandise KPIs
+- Delivered tested dimensional models, cancellation-exposure analysis, product and country marts, purchase-only customer segmentation, reproducible acquisition, and a fail-closed Snowflake deployment plan
+
+[View repository](https://github.com/PavanRMV/retail-revenue-analytics-snowflake)
 
 ### Ecommerce Growth Intelligence
 
@@ -47,7 +59,7 @@ A healthcare analytics portfolio combining CMS hospital data with CDC community-
 | Area | Tools and methods |
 |---|---|
 | Analytics | SQL, Python, pandas, exploratory analysis, KPI design |
-| Data modeling | BigQuery, dbt, SQLite, dimensional modeling, grain contracts |
+| Data modeling | Snowflake, BigQuery, dbt, DuckDB, SQLite, dimensional modeling, grain contracts |
 | Visualization | Power BI, DAX, Tableau, executive dashboards, data storytelling |
 | Engineering | Git, GitHub, automated tests, CLI workflows, reproducible exports |
 | Quality | Reconciliation, provenance, exception reporting, privacy-aware publication |
