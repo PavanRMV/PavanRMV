@@ -20,6 +20,18 @@ I am open to Data Engineer opportunities in the United States.
 
 ## Featured projects
 
+### Retail Lakehouse Engineering on Databricks
+
+[![Databricks retail lakehouse architecture with Bronze, Silver, Gold, quality gates, and governed serving layers](https://raw.githubusercontent.com/PavanRMV/retail-lakehouse-databricks/main/docs/architecture.svg)](https://github.com/PavanRMV/retail-lakehouse-databricks)
+
+A production-style Data Engineering portfolio that turns all 541,909 UCI Online Retail rows into a governed Bronze–Silver–Gold lakehouse design for Databricks, with reproducible local execution in DuckDB.
+
+- Authored bounded Auto Loader ingestion, immutable file-and-row identity, Delta merge patterns, quarantine handling, fail-closed quality gates, Unity Catalog assets, and Databricks Workflow orchestration
+- Materialized eight business-ready marts covering sales, products, countries, purchase-only RFM, cohort retention, cancellation exposure, and operational quality metrics
+- Reconciled 541,909 source rows with 40 automated tests, locked dependencies, deterministic evidence, and explicit separation between local validation and unexecuted live-workspace behavior
+
+[View repository](https://github.com/PavanRMV/retail-lakehouse-databricks)
+
 ### Retail Merchandise Revenue Analytics on Snowflake
 
 [![Retail merchandise revenue dashboard showing sales, cancellation exposure, trends, and leading SKUs](assets/retail-revenue-analytics-preview.png)](https://github.com/PavanRMV/retail-revenue-analytics-snowflake)
