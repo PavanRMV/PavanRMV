@@ -8,7 +8,7 @@ My experience includes Delta Lakehouse architecture, Spark Structured Streaming,
 
 I am open to Data Engineer opportunities in the United States.
 
-**Arkansas, United States** · [LinkedIn](https://www.linkedin.com/in/saipavan12/)
+**Dallas, United States** · [LinkedIn](https://www.linkedin.com/in/saipavan12/)
 
 ## What I bring
 
